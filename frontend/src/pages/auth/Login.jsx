@@ -68,7 +68,6 @@ const Login = () => {
                     <input type='password' placeholder='Password' name='password' value={password} onChange={handleInputChange} />
                     <button type='submit' className='--btn --btn-primary --btn-block'>Login</button>
                 </form>
-                <Link to='/forgot'>Forgot Password</Link>
                 <span className={styles.register}>
                     <Link to='/'>Home</Link>
                     <p>&nbsp; Don't have an account? &nbsp;</p>
