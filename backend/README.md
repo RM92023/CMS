@@ -1,9 +1,5 @@
 # Backend
 
-What is an API?
-
-An API (Application Programming Interface) is a set of rules that allows different programs to communicate with each other. It facilitates interaction and data exchange between applications and systems.
-
 ## What is done in each folder
 
 ### Config
