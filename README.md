@@ -52,5 +52,3 @@ A Vite-based CMS project with login, logout, and product CRUD functionalities. C
    ```bash
    npm run dev
    ```
-
-Enjoy your Vite CMS!
