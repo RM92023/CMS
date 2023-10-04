@@ -20,10 +20,10 @@ const Sidebar = ({children}) => {
         <div className='sidebar' style={{width: isOpen ? '230px' : '60px'}}>
             <div className='top_section'>
                 <div className='logo' style = {{ display: isOpen ? 'block' : 'none' }}>
-                    <BsBoxSeam size={30} style={{cursor: 'pointer'}} onClick={goHome}/>
+                    <BsBoxSeam size={30} color={'white'} style={{cursor: 'pointer'}} onClick={goHome}/>
                 </div>
                 <div className='bars' style={{marginLeft: isOpen ? '100px' : '0px' }}>
-                    <HiMenuAlt3  onClick={toggle}/>
+                    <HiMenuAlt3  color={'white'} onClick={toggle}/>
                 </div>
             </div>
             {menu.map((item, index) => {

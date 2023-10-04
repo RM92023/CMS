@@ -49,6 +49,7 @@ const ProductDetail = () => {
                 <img
                   src={product.image.filePath}
                   alt={product.image.fileName}
+                  style={{ maxWidth: '300px', width: '100%', height: 'auto' }}
                 />
               ) : (
                 <p>No image set for this product</p>
@@ -83,13 +84,13 @@ const ProductDetail = () => {
               }}
             ></div>
             <hr />
-            <code className="--color-dark">
+{/*             <code className="--color-dark">
               Created on: {product.createdAt.toLocaleString("en-US")}
             </code>
             <br />
             <code className="--color-dark">
               Last Updated: {product.updatedAt.toLocaleString("en-US")}
-            </code>
+            </code> */}
           </div>
         )}
       </Card>

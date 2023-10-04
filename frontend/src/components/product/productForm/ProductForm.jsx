@@ -16,7 +16,7 @@ const ProductForm = ({product, productImage, imagePreview, description, setDescr
             <input type='file' name='image' onChange={(e) => handleImageChange(e)} />
             {imagePreview != null ? (
               <div className='image-preview'>
-                <img src={imagePreview} alt='product' />
+                <img src={imagePreview} alt='product' style={{ maxWidth: '200px', width: '100%', height: 'auto' }}/>
               </div>
             ) : (<p>No image set for this product.</p>)}
           </Card>
