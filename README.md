@@ -31,3 +31,26 @@ module.exports = dbConnect;
 
 ```
 
+## Frontend
+
+A Vite-based CMS project with login, logout, and product CRUD functionalities. Connects to a pre-existing API and MongoDB database.
+
+### Quick Start
+
+1. Clone the repository.
+
+2. Configure environment variables for API and MongoDB connection.
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+Enjoy your Vite CMS!
