@@ -41,3 +41,15 @@ A Vite-based CMS project with login, logout, and product CRUD functionalities. C
    ```bash
    npm run dev
    ```
+
+
+### **Authors**
+--- 
+
+Carlos Alfredo Montoya - https://github.com/carlosalfredo4200
+
+Camilo Estrada - https://github.com/cestrad5
+
+Kevin Muñoz Benitez - https://github.com/kevinmunoz44
+
+Robinson Muñetón Jaramillo - https://github.com/RM92023
